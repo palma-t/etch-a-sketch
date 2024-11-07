@@ -8,7 +8,7 @@ h1{
 }
 
 #container {
-    border: 1px solid black;
+    border: 1px solid white;
     max-width: 320px;
 }
 
@@ -24,9 +24,22 @@ div{
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    border: 0.1px solid grey;
+    border: solid rgb(185, 184, 184);
+    border-collapse: collapse;
+    border-width: thin;
     box-sizing: border-box;
-    vertical-align: top;
+    vertical-align: top;   
+}
 
-    
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(209, 181, 236);
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(148, 89, 216);
 }
