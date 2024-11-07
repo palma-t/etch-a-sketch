@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    color: rgb(148, 89, 216);
+}
+
+#container {
+    border: 1px solid black;
+    max-width: 320px;
+}
+
+div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border: 0.1px solid grey;
+    box-sizing: border-box;
+    vertical-align: top;
+
+    
+}
